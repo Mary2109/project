@@ -1,0 +1,49 @@
+.network
+    .network__navigation
+        .network__navigation_item.home
+            img(alt="icon" src="./img/home.svg")
+        .network__navigation_item
+            img(alt="icon" src="./img/house.svg")
+        .network__navigation_item
+            img(alt="icon" src="./img/grafics.svg")
+        .network__navigation_item
+            img(alt="icon" src="./img/navigation.svg")
+        .network__navigation_item.network_item
+            img(alt="icon" src="./img/network.svg")
+        .network__navigation_item
+            img(alt="icon" src="./img/notice.svg")
+        .network__navigation_item.exit
+            img(alt="icon" src="./img/exit.svg")
+    .network__content
+        .network__content__header
+            .network__content__header_left
+                .network__content__header_left_clock
+                    .clock#clock 00
+                    .clock_con :
+                    .clock_min#clock_min 00
+                .network__content__header_left_day
+                    .day#day
+                    .network__content__header_left_date
+                        .date#date
+                        .month#month
+            .network__content__header_right
+                .network__content__header_right_title ID контроллера: 0FB63A1A0000
+                .network__content__header_right_text Версия прошивки: v 5.13.18
+        .network__content_title Сеть
+        .network__content__prewiew
+            .network__content__prewiew_item
+                .network__content__prewiew_item_title IP
+                <input class="search network__content__prewiew_item_icon" value="192.168.254.255 ">
+                <input type="button"  class="submit network__content__prewiew_item_button" value="Изменить" onclick="this.value='Сохранено ';"/>
+            .network__content__prewiew_item
+                .network__content__prewiew_item_title Шлюз
+                <input class="search network__content__prewiew_item_icon" value="192.168.2:1 ">
+                <input type="button"  class="submit network__content__prewiew_item_button" value="Изменить" onclick="this.value='Сохранено ';"/>
+            .network__content__prewiew_item
+                .network__content__prewiew_item_title MAC
+                <input class="search network__content__prewiew_item_icon" value="C4.B3.N8.K3 ">
+                <input type="button"  class="submit network__content__prewiew_item_button" value="Изменить" onclick="this.value='Сохранено ';"/>
+            .network__content__prewiew_item
+                .network__content__prewiew_item_title Маска
+                <input class="search network__content__prewiew_item_icon" value="255.255.255.0 ">
+                <input type="button"  class="submit network__content__prewiew_item_button" value="Изменить" onclick="this.value='Сохранено ';"/>

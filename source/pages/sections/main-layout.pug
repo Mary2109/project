@@ -1,0 +1,38 @@
+.main-layout
+    .main-layout__navigation
+        .main-layout__navigation_item.home_item
+            img(alt="icon" src="./img/home.svg")
+        .main-layout__navigation_item
+            img(alt="icon" src="./img/house.svg")
+        .main-layout__navigation_item
+            img(alt="icon" src="./img/grafics.svg")
+        .main-layout__navigation_item
+            img(alt="icon" src="./img/navigation.svg")
+        .main-layout__navigation_item
+            img(alt="icon" src="./img/network.svg")
+        .main-layout__navigation_item
+            img(alt="icon" src="./img/notice.svg")
+        .main-layout__navigation_item.exit
+            img(alt="icon" src="./img/exit.svg")
+    .main-layout__content
+        .main-layout__content__header
+            .main-layout__content__header_left
+                .main-layout__content__header_left_clock
+                    .clock#clock 00
+                    .clock_con :
+                    .clock_min#clock_min 00
+                .main-layout__content__header_left_day
+                    .day#day
+                    .main-layout__content__header_left_date
+                        .date#date
+                        .month#month
+            .main-layout__content__header_right
+                .main-layout__content__header_right_title ID контроллера: 0FB63A1A0000
+                .main-layout__content__header_right_text Версия прошивки: v 5.13.18
+        .main-layout__content_title Администратор
+        .main-layout__content_text Введите новые данные
+        .main-layout__content__prewiew
+            <input class="search main-layout__content__prewiew_item" value="Логин ">
+            <input class="search main-layout__content__prewiew_item" value="Пароль ">
+            <input type="button"  class="submit main-layout__content__prewiew_item_button" value="Изменить" onclick="this.value='Сохранено ';"/>
+
